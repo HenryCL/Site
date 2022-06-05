@@ -1,0 +1,123 @@
+
+      .clearfix::after {
+       content: "";
+       clear: both;
+       display: table;
+              }
+             
+      .center {
+             margin: auto;
+             border: 3px solid black;
+             padding: 10px;
+             }
+      
+       body {
+                background-color:#000000;
+                color: #F00F00;            
+                }
+                .a1   {
+                  background:#000000;
+                  color:#000000;
+                  padding: 10px 20px;
+                  text-align: center;
+                  display: inline-block;
+                }
+              .a1:link, a:visited {
+                text-decoration: underline;
+                }
+              .a1:hover {
+                text-decoration: ;
+                color: #FF0000;
+                }
+              .a1:active {
+                text-decoration: underline ;
+                }
+                
+ a   {
+	  background:#FF0000;
+	  color:#000000;
+    padding: 10px 20px;
+    text-align: right;
+    display: inline-block;
+	}
+  a:link, a:visited {
+	text-decoration: inline;
+	}
+a:hover {
+	text-decoration: null ;
+	color: #ffffff;
+	}
+
+a:active {
+	text-decoration: underline ;
+	}
+
+  div {
+    border: 10px solid black;
+  }
+  .div1 {
+    border: 10px solid red;
+    padding: 5px;
+  }
+  
+  .img {
+    float: right;
+  }
+
+  .img2 {
+    float: left;
+  }
+   
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  transition: .1s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: 10;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active)  {
+  background-color: #555353;
+}
+
+
+
